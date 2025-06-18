@@ -42,7 +42,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-/generate.jks
+/generate.jks.txt
 /keystore.txt
 android/key.properties
 android/app/*.jks
