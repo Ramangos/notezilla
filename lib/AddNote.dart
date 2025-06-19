@@ -78,8 +78,8 @@ class _AddNoteState extends State<AddNote> {
 
         if(titlecontroller.text.trim().isNotEmpty || contentcontroller.text.trim().isNotEmpty)
           {
-            //addnote(titlecontroller.text, contentcontroller.text);
-            addDummyNotes();
+            addnote(titlecontroller.text, contentcontroller.text);
+           // addDummyNotes();
 
           }
         else
